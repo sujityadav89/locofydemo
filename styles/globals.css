@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer tailwind-base, primereact, tailwind-utilities;
+
+@layer tailwind-base {
+@tailwind base;
+}
+
+
+
+
+/***********************************************
+            Responsive
+***********************************************/
+
+@media (min-width:1800px) { }
+
+@media (max-width:1280px) {  }
+
+@media (max-width:1024px) {  }
+
+@media (max-width:991px) {  }
+
+@media (max-width:767px) {  }
+
+@media (max-width:575px) {  }
+
