@@ -8,18 +8,43 @@ module.exports = {
     
   ],
   theme: {
-    mq1525: {
-      raw: "screen and (max-width: 1525px)",
+
+    screens: {
+      mq1700: {
+        raw: "screen and (max-width: 1700px)",
+      },
+      mq1450: {
+        raw: "screen and (max-width: 1450px)",
+      },
+      mq1325: {
+        raw: "screen and (max-width: 1325px)",
+      },
+      lg: {
+        max: "1200px",
+      },
+      mq900: {
+        raw: "screen and (max-width: 900px)",
+      },
+      mq825: {
+        raw: "screen and (max-width: 825px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
+      mq1525: {
+        raw: "screen and (max-width: 1525px)",
+      },
+      mq1225: {
+        raw: "screen and (max-width: 1225px)",
+      },
+      mq850: {
+        raw: "screen and (max-width: 850px)",
+      },
+      mq450: {
+        raw: "screen and (max-width: 450px)",
+      },
     },
-    mq1225: {
-      raw: "screen and (max-width: 1225px)",
-    },
-    mq850: {
-      raw: "screen and (max-width: 850px)",
-    },
-    mq450: {
-      raw: "screen and (max-width: 450px)",
-    },
+    
     fontSize: {
       sm: "14px",
       lg: "18px",
@@ -33,6 +58,27 @@ module.exports = {
       inherit: "inherit",
     },
     extend: {
+      borderRadius: {
+        "9980xl": "9999px",
+        "81xl": "100px",
+        "3xs": "10px",
+        xl: "20px",
+        "11xl": "30px",
+        "21xl": "40px",
+        "border-radius-rounded-full": "9999px",
+        "border-radius-rounded-lg": "8px",
+        "border-radius-rounded-2xl": "16px",
+        "border-radius-rounded-md": "6px",
+        "border-radius-rounded-lg1": "8px",
+        "border-radius-rounded-full1": "9999px",
+        "rounded-lg": "8px",
+        "border-radius-rounded-lg2": "8px",
+        "border-radius-rounded-lg3": "8px",
+        "border-radius-rounded": "4px",
+        "border-radius-rounded-md1": "6px",
+        "border-radius-rounded-3xl1": "24px",
+        "border-radius-rounded-full2": "9999px",
+      },
       colors: {
         "surface-component": "#fff",
         "interface-surface-page": "#f0f3f7",
